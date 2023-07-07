@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Startup Company Landing Page</title>
+  <style>
+    /* Reset default styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    /* Global styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Header styles */
+    header {
+ background-image: url("68372199203.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+    }
+
+    nav ul {
+      list-style: none;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    /* Hero section styles */
+    #hero {
+      background-image: url("hero-image.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .hero-content {
+      text-align: center;
+    }
+
+    .hero-content h1 {
+      font-size: 85px;
+      margin-top: 105px;
+font-weight:500;
+    }
+
+    .hero-content p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    /* Content section styles */
+    .content {
+      background-color: #fff;
+      padding: 40px;
+      margin-bottom: 20px;
+    }
+
+    .content h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .content p {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    /* Contact form styles */
+    form {
+      margin-top: 20px;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    button {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+<img src="downlod.png" >
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Welcome to our school website</h1>
+      <p>We provide provide education for our future.</p>
+      <a href="#contact" class="cta-button">Get Started</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="content">
+      <h2>About Us</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum tellus eget eros pulvinar, sed
+        tincidunt libero accumsan. Donec auctor, tortor id pulvinar laoreet, orci tellus auctor eros, nec gravida
+        nunc elit sit amet enim.</p>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="content">
+      <h2>You can explore</h2>
+      <ul>
+        <li>NEWS</li>
+        <li> iMAGES</li>
+        <li>APPLICATION</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="content">
+      <h2>Contact Us</h2>
+      <p>Fill out the form below to get in touch with us:</p>
+      <form>
+        <input type="text" name="name" placeholder="Your Name">
+        <input type="email" name="email" placeholder="Your Email">
+        <textarea name="message" placeholder="Your Message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Startup Company. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
+
