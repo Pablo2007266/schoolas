@@ -1,0 +1,22 @@
+h1{
+    color:darkolivegreen;
+    text-align: center;
+    font-family:monospace;
+}
+p{
+    background-blend-mode:color-dodge;
+    font-size-adjust: auto;
+    color:darkolivegreen;
+    text-align: center;
+    font-family:monospace;
+    font-weight:900;
+}
+
+     
+body{
+    background-position: center;
+    background-size:contain;
+    
+    backface-visibility: visible;
+   background-color: antiquewhite;
+}
